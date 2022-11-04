@@ -17,7 +17,7 @@ import javax.persistence.Table;
 import io.quarkus.hibernate.orm.panache.PanacheEntityBase;
 
 @Entity
-@Table(name = "restaurante")
+@Table(name = "prato")
 public class Prato extends PanacheEntityBase {
 
     @Id
